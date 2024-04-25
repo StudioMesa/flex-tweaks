@@ -40,7 +40,7 @@ body:not(.button-style-default).primary-button-style-solid .site-wrapper:not(.wi
 }
 /*Flex Nav Link*/
 .tweak-global-animations-animation-type-flex .header-nav-item:not(.header-nav-item--folder) a::after {
-  bottom: -0.1em !important;
+  bottom: -0.2em !important;
 }
 /*Remove Carousel Button Show*/
 .tweak-global-animations-animation-type-flex .user-items-list .sqs-button-element--primary::before {
