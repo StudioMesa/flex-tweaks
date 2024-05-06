@@ -48,5 +48,5 @@ body:not(.button-style-default).primary-button-style-solid .site-wrapper:not(.wi
 }
 /*Move Nav Up*/
 .tweak-global-animations-animation-type-flex.header-width-inset .header-inner {
-  margin-top: -17px !important;
+  margin-top: -2.18em !important;
 }
