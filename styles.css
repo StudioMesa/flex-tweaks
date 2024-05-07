@@ -1,4 +1,4 @@
-/*FLEX TWEAKS — Updated 4/21/24*/
+/*FLEX TWEAKS — Updated 5/7/24*/
 /*Removing Line Animations*/
 .tweak-global-animations-animation-type-flex .sqs-block p a:hover,
 .tweak-global-animations-animation-type-flex .header-menu-nav-item:not(.header-menu-nav-item--active) a,
@@ -48,5 +48,5 @@ body:not(.button-style-default).primary-button-style-solid .site-wrapper:not(.wi
 }
 /*Move Nav Up*/
 .tweak-global-animations-animation-type-flex.header-width-inset .header-inner {
-  margin-top: -2.18em !important;
+  margin-top: -2.2em !important;
 }
