@@ -37,4 +37,8 @@ jobs:
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/StudioMesa/flex-tweaks.git HEAD:main
           else
             echo "No changes to commit."
-          fi
+
+      - name: Purge jsDelivr Cache
+        if: always()
+        run: |
+          curl -X POST "https://purge.jsdelivr.net/gh/StudioMesa/flex-tweaks/styles.css"
