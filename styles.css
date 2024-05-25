@@ -52,3 +52,7 @@ body:not(.button-style-default).primary-button-style-solid .site-wrapper:not(.wi
 .tweak-global-animations-animation-type-flex .header-display-desktop {
   margin-top: -17px !important;
 }
+/*Remove Flex Underline*/
+.tweak-global-animations-animation-type-flex .header-nav-folder-item a::after {
+  height: 0!important;
+}
