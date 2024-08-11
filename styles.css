@@ -9,8 +9,7 @@
 .tweak-global-animations-animation-type-flex .sqs-block h5 a,
 .tweak-global-animations-animation-type-flex .sqs-block h6 a,
 .tweak-global-animations-animation-type-flex .item-pagination-link--prev .item-pagination-title::after,
-.tweak-global-animations-animation-type-flex .item-pagination-link--next .item-pagination-title::after,
-.newsletter-form-button:before {
+.tweak-global-animations-animation-type-flex .item-pagination-link--next .item-pagination-title::after {
   animation: none!important;
   background: none!important;
   background-image: none!important;
