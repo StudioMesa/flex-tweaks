@@ -58,8 +58,7 @@ body:not(.button-style-default).primary-button-style-solid .site-wrapper:not(.wi
 }
 /*Force images to load*/
 .summary-thumbnail.preFlex,
-.blog-item.image-wrapper.preFlex,
-.blog-item .image-wrapper .preFlex {
+.blog-item .image-wrapper.preFlex {
   opacity: 1!important;
   transform: unset!important;
   clip-path: unset!important;
