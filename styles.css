@@ -1,4 +1,4 @@
-/*FLEX TWEAKS — Updated 8/10/24*/
+/*FLEX TWEAKS — Updated 10/13/24*/
 /*Removing Line Animations*/
 .tweak-global-animations-animation-type-flex .sqs-block p a:hover,
 .tweak-global-animations-animation-type-flex .header-menu-nav-item:not(.header-menu-nav-item--active) a,
@@ -57,7 +57,8 @@ body:not(.button-style-default).primary-button-style-solid .site-wrapper:not(.wi
   height: 0!important;
 }
 /*Force images to load*/
-.summary-thumbnail.preFlex {
+.summary-thumbnail.preFlex,
+.blog-item[data-animation-role="image"].preFlex {
   opacity: 1!important;
   transform: unset!important;
   clip-path: unset!important;
