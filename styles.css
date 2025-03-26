@@ -10,7 +10,7 @@
 .tweak-global-animations-animation-type-flex .sqs-block h6 a,
 .tweak-global-animations-animation-type-flex .item-pagination-link--prev .item-pagination-title::after,
 .tweak-global-animations-animation-type-flex .item-pagination-link--next .item-pagination-title::after,
-.header-nav-item--active .header-nav-folder-title-text {
+body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text {
   animation: none!important;
   background: none!important;
   background-image: none!important;
