@@ -1,7 +1,7 @@
 /*FLEX TWEAKS — Updated 03/25/25*/ 
 
 /*Removing Line Animations*/
-.tweak-global-animations-animation-type-flex .sqs-block p a:hover, .tweak-global-animations-animation-type-flex .header-menu-nav-item:not(.header-menu-nav-item--active) a, .tweak-global-animations-animation-type-flex .sqs-block h1 a, .tweak-global-animations-animation-type-flex .sqs-block h2 a, .tweak-global-animations-animation-type-flex .sqs-block h3 a, .tweak-global-animations-animation-type-flex .sqs-block h4 a, .tweak-global-animations-animation-type-flex .sqs-block h5 a, .tweak-global-animations-animation-type-flex .sqs-block h6 a, .tweak-global-animations-animation-type-flex .item-pagination-link--prev .item-pagination-title::after, .tweak-global-animations-animation-type-flex .item-pagination-link--next .item-pagination-title::after, body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text, body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text span, span.header-nav-folder-title-text{
+.tweak-global-animations-animation-type-flex .sqs-block p a:hover, .tweak-global-animations-animation-type-flex .header-menu-nav-item:not(.header-menu-nav-item--active) a, .tweak-global-animations-animation-type-flex .sqs-block h1 a, .tweak-global-animations-animation-type-flex .sqs-block h2 a, .tweak-global-animations-animation-type-flex .sqs-block h3 a, .tweak-global-animations-animation-type-flex .sqs-block h4 a, .tweak-global-animations-animation-type-flex .sqs-block h5 a, .tweak-global-animations-animation-type-flex .sqs-block h6 a, .tweak-global-animations-animation-type-flex .item-pagination-link--prev .item-pagination-title::after, .tweak-global-animations-animation-type-flex .item-pagination-link--next .item-pagination-title::after{
 animation:none!important;
 background:none!important;
 background-image:none!important;}
@@ -45,3 +45,10 @@ height:0!important;}
 opacity:1!important;
 transform:unset!important;
 clip-path:unset!important;}
+
+/*Folder Nav Underline*/
+body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text, body:not(.header--menu-open).header-nav-item--active.header-nav-folder-title-text, body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text span, span.header-nav-folder-title-text {
+background-image: none!important;
+background:none!important;
+background-size: unset!important;
+background-position: unset!important;}
