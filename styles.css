@@ -9,10 +9,7 @@
 .tweak-global-animations-animation-type-flex .sqs-block h5 a,
 .tweak-global-animations-animation-type-flex .sqs-block h6 a,
 .tweak-global-animations-animation-type-flex .item-pagination-link--prev .item-pagination-title::after,
-.tweak-global-animations-animation-type-flex .item-pagination-link--next .item-pagination-title::after,
-body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text,
-body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text span,
-span.header-nav-folder-title-text {
+.tweak-global-animations-animation-type-flex .item-pagination-link--next .item-pagination-title::after {
   animation: none!important;
   background: none!important;
   background-image: none!important;
@@ -65,4 +62,14 @@ body:not(.button-style-default).primary-button-style-solid .site-wrapper:not(.wi
   opacity: 1!important;
   transform: unset!important;
   clip-path: unset!important;
+}
+/*Folder Nav Underline*/
+body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text,
+body:not(.header--menu-open).header-nav-item--active.header-nav-folder-title-text,
+body:not(.header--menu-open) .header-nav-item--active .header-nav-folder-title-text span,
+span.header-nav-folder-title-text {
+  background-image: none!important;
+  background: none!important;
+  background-size: unset!important;
+  background-position: unset!important;
 }
